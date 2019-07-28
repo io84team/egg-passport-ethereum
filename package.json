@@ -1,0 +1,55 @@
+{
+  "author": {
+    "name": "Aben"
+  },
+  "bugs": {
+    "url": "https://github.com/io84team/egg-passport-ethereum/issues"
+  },
+  "bundleDependencies": false,
+  "ci": {
+    "version": "6, 7"
+  },
+  "dependencies": {
+    "debug": "^2.6.1",
+    "passport-ethereum": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "ethereum passport plugin for egg",
+  "devDependencies": {},
+  "eggPlugin": {
+    "name": "passportEthereum",
+    "dependencies": [
+      "passport"
+    ]
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "files": [
+    "app.js",
+    "config"
+  ],
+  "homepage": "https://github.com/io84team/egg-passport-ethereum#readme",
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "egg-passport",
+    "passport-ethereum"
+  ],
+  "license": "MIT",
+  "name": "egg-passport-ethereum",
+  "scripts": {
+    "autod": "autod",
+    "ci": "npm run lint && npm run cov",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/io84team/egg-passport-ethereum.git"
+  },
+  "version": "1.0.0"
+}
