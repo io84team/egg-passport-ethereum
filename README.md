@@ -5,7 +5,7 @@ ethereum passport plugin for egg
 ## Install
 
 ```bash
-$ npm i egg-passport-ethereum --save
+$ npm i @io84team/egg-passport-ethereum --save
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ npm i egg-passport-ethereum --save
 // config/plugin.js
 exports.passportEthereum = {
     enable: true,
-    package: "egg-passport-ethereum"
+    package: '@io84team/egg-passport-ethereum',
 }
 ```
 

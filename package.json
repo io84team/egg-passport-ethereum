@@ -29,6 +29,9 @@
     "app.js",
     "config"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "homepage": "https://github.com/io84team/egg-passport-ethereum#readme",
   "keywords": [
     "egg",
@@ -38,7 +41,7 @@
     "passport-ethereum"
   ],
   "license": "MIT",
-  "name": "egg-passport-ethereum",
+  "name": "@io84team/egg-passport-ethereum",
   "scripts": {
     "autod": "autod",
     "ci": "npm run lint && npm run cov",
